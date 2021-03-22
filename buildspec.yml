@@ -11,7 +11,7 @@ phases:
 
   post_build:
     commands:
-      - command php artisan migrate --force
+      - php artisan migrate --force
       
 artifacts:
   files:
